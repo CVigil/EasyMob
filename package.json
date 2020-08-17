@@ -3,11 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cubejs-client/core": "^0.19.23",
+    "@cubejs-client/react": "^0.19.23",
+    "@cubejs-client/ws-transport": "^0.19.22",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.3.1",
+    "chart.js": "^2.9.3",
+    "ol": "^6.4.1",
+    "openlayers": "^4.6.5",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -30,5 +42,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "cubejsTemplates": {
+    "create-react-app": "0.0.1",
+    "react-antd-static": "0.0.1",
+    "credentials": "0.0.1",
+    "chartjs-charts": "0.0.1",
+    "web-socket-transport": "0.0.1",
+    "antd-tables": "0.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "react-openlayers": "^0.3.0"
   }
 }
